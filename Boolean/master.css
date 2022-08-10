@@ -1,0 +1,87 @@
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+.container {
+  width: 1200px;
+  height: 800px;
+  margin: auto;
+  margin-top: 2%;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 20px;
+  padding-top: 100px;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  width: 220px;
+}
+
+#title {
+  text-align: center;
+  color: lime;
+}
+
+.nav-bar {
+  width: 1000px;
+  height: 50px;
+  margin: auto;
+  background-color: lime;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-bar span {
+  border: 1px solid black;
+  background-color: white;
+  padding: 4px;
+  margin: 2px;
+}
+
+.user {
+  color:white;
+  margin-left: 100px;
+}
+
+.square {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 1px;
+  margin-right: 3px;
+}
+
+.user h2 {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+
+.user p {
+  margin: 5px 0;
+}
+
+.charge-1 {
+  width: 400px;
+  height: 40px;
+  background-color: orange;
+  border-radius: 10px;
+}
+
+.charge-2 {
+  width: 600px;
+  height: 40px;
+  background-color: rgb(51,255,63);
+  border-radius: 10px;
+}
+
+.charge-3 {
+  width: 200px;
+  height: 40px;
+  background-color: red;
+  border-radius: 10px;
+}
